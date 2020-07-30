@@ -8,7 +8,7 @@ NetInfo 网络信息相关类主要用于获取手机当前网络状态以及监
 使用时需要在js中引入 ：
 
 ```javascript
-var netinfo = require("NetInfo"); 
+var netinfo = require("NetInfo");
 ```
 
 **注：** 该组件为内置功能组件。
@@ -63,7 +63,7 @@ var netinfo = require("NetInfo");
 
 > bssId：所连接的wifi的BSSID值，字符串类型，如：bc:54:36:ce:b2:c4
 > 
-> ssId：所连接wifi设备的名称，字符串类型，如：烽火WIFI路由器1
+> ssId：所连接wifi设备的名称，字符串类型，如：先维WIFI路由器1
 > 
 > ip：连接wifi网络分配的ip地址，字符串类型，如：192.168.95.4
 

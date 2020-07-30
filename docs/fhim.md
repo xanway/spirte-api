@@ -1,8 +1,8 @@
-# FhIm 烽火星空IM工具类
+# FhIm 先维IM工具类
 
 ----------
 
- FhIm为烽火星空IM工具类，提供登录，注销等相关操作方法。
+ FhIm为先维IM工具类，提供登录，注销等相关操作方法。
 
 
 
@@ -12,13 +12,13 @@
 
 本节目录：
 
->[ login(jsonData:Object,callBackFun:Function): void   启动烽火IM初始化并进行用户登录，处理结果进入回调中返回 ](#ff_0)
+>[ login(jsonData:Object,callBackFun:Function): void   启动先维IM初始化并进行用户登录，处理结果进入回调中返回 ](#ff_0)
 > 
 > [logout(): void  注销当前已登录IM用户](#ff_1)
 > 
-> [setSettingInfo (jsonData:Object): void   设置烽火IM服务器设置信息 ](#ff_2)
+> [setSettingInfo (jsonData:Object): void   设置先维IM服务器设置信息 ](#ff_2)
 > 
-> [getSettingInfo(): Object 获取烽火IM服务器设置信息](#ff_3)
+> [getSettingInfo(): Object 获取先维IM服务器设置信息](#ff_3)
 > 
 > [createGroup(jsonData:Object,callFunction:Function): void  创建群组](#ff_4)
 > 
@@ -49,23 +49,23 @@
 
 <span id="ff_0">**login(jsonData:Object,callBackFun:Function): void**</span>  
 
-<code>启动烽火IM初始化并进行用户登录，处理结果进入回调中返回</code>  
+<code>启动先维IM初始化并进行用户登录，处理结果进入回调中返回</code>  
    
 
 参数：  
 
 jsonData，登录用户传递参数，Json对象，定义如下：  
 
-> userId：烽火Im账号voipId，字符串类型，必选项；
+> userId：先维Im账号voipId，字符串类型，必选项；
 > 
-> userName：烽火Im用户名，字符串类型，必选项；
+> userName：先维Im用户名，字符串类型，必选项；
 > 
-> token：烽火Im账号voip密码，字符串类型，可选项；
+> token：先维Im账号voip密码，字符串类型，可选项；
 
 
 callBackFun，登录回调函数，该回调函数具有一个入参，类型为数字：  
 
-> code：数字，0：登录烽火IM服务器成功；-1：登录烽火IM服务器失败；
+> code：数字，0：登录先维IM服务器成功；-1：登录先维IM服务器失败；
 
 
 返回值：无
@@ -85,7 +85,7 @@ callBackFun，登录回调函数，该回调函数具有一个入参，类型为
 
 <span id="ff_2">**setSettingInfo (jsonData:Object): void**</span>  
 
-<code>设置烽火IM服务器设置信息</code>   
+<code>设置先维IM服务器设置信息</code>   
 
 参数：
 
@@ -110,7 +110,7 @@ jsonData：Json格式，定义如下：
 
 <span id="ff_3">**getSettingInfo(): Object**</span>  
 
-<code>获取烽火IM服务器设置信息</code> 
+<code>获取先维IM服务器设置信息</code> 
 
 参数：无
 

@@ -14,7 +14,7 @@
 <page>
 	<ui>
 		<box>
-			<text style="font-size:32;">烽火星空</text>
+			<text style="font-size:32;">南京先维</text>
 			<text class="large">Sprite Team</text>
 		</box>
 	</ui>

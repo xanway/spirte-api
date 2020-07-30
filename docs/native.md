@@ -66,7 +66,7 @@ callFunction：启动回调函数，，入参为Json对象，定义如下：
 
 function testopenApp() {
     var os = device.getOs();
-    var user = encryption.base64Encode("admin@烽火星空");
+    var user = encryption.base64Encode("admin@南京先维");
     var json = {};
     if(os == "Android"){
         // json.appId = "com.fiberhome.gaea.client";

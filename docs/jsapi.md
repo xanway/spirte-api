@@ -149,14 +149,14 @@ Sprite采用CommonJS规范，通过require("模块标识")来实现对系统api�
 
 **推送push**  
 
-> [ExMobiPush  烽火push操作类](https://gitdocument.exmobi.cn/sprite-api/exmobipush.html)
+> [ExMobiPush  先维push操作类](https://gitdocument.exmobi.cn/sprite-api/exmobipush.html)
 > 
 > [JPush：极光Push操作类](https://gitdocument.exmobi.cn/sprite-api/jpush.html)
 
 
 **IM聊天**  
 
-> [FhIm：烽火Im操作类](https://gitdocument.exmobi.cn/sprite-api/fhim.html) 
+> [FhIm：先维Im操作类](https://gitdocument.exmobi.cn/sprite-api/fhim.html) 
 > 
 > [RlyIm：容联云操作类](https://gitdocument.exmobi.cn/sprite-api/rlyIm.html)
 
